@@ -84,7 +84,15 @@ footer{
     font-size: 0.7rem;
 
 }
-
+#mute{
+    display: none;
+}
+.all-mic:active #mute{
+    display: block;
+}
+.all-mic:active #mic{
+    display: none;
+}
 /* icona del video */
 .video{
     display: flex;
