@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    background-color: black;
+}
+nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+}
+.media-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.media-nav div{
+    background-color: #909090a1;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+/* fine nav */
+main{
+    flex-grow: 1;
+    overflow: auto;
+}
+.grid{
+    margin: 0 auto;
+    /* max-width: 900px; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-auto-columns: min-content; */
+    /* grid-template-columns: 70px 60px; */
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    /* justify-content: space-around; */
+}
+.grid img{
+    padding-top: 15px;
+    width: 250px;
+}
+.item{
+    position: relative;
+}
+.name-user{
+    position: absolute;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    bottom: 6px;
+}
+/* inizio del footer */
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* icone di sinistra */
+.icon-sinistra{
+    display: flex;
+    font-size: 2rem;
+}
+/* icona del microfono */
+.mic{
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.all-mic p{
+    padding-left: 10px;
+    font-size: 0.7rem;
+
+}
+
+/* icona del video */
+.video{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.all-video p{
+    padding-left: 10px;
+    font-size: 0.7rem;
+}
+/* icona della v */
+.singol{
+    font-size: 0.7rem;
+}
+.icon-destra{
+    background-color: gray;
+    padding: 15px;
+    color: red;
+}
+.icon-centro i{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 2rem;
+}
+.icon-destra:hover{
+    background-color: rgba(117, 117, 117, 0.5);
+}
+.icon-destra:active{
+    color: white;
+    background-color: rgba(247, 64, 64, 0.863);
+}
